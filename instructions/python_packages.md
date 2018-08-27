@@ -307,7 +307,7 @@ to get it going. Then in your other terminal use navigate to the
 folder your git repository is in and use:
 
 ```
-docker cp 'my_repo' my_pkg:.
+docker cp 'my_repo' my_container:.
 ```
 
 (where 'my_repo' is the repository file) to copy the repository into
